@@ -23,17 +23,54 @@ header.active .nav-links {
     left : 0
 }
 
-.nav-links li svg {
+.nav-links svg {
     position: absolute;
     right: 5px;
     top: 5px;
 }
 
-.nav-links li a {
+.nav-links a {
     color: var(--accent);
     font-family: var(--font-main);
     font-size: 1.5rem;
     display: block;
     margin: 2rem;
     width: max-content;
+}
+
+@media (min-width : 600px) {
+    /* 1. On cache le bouton burger */
+    .burger {
+        display: none;
+    }
+
+    /* 2. On force le container global à aligner le Logo et le Menu face à face */
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* 3. On fait réapparaître le menu au bon endroit */
+    .nav-links {
+        display: flex;       /* Aligne les liens horizontalement */
+        position: static;    /* ANNULLÉ : Le menu n'est plus à left: -100%, il revient dans l'écran */
+        width: auto;         /* Annule les 250px du mobile */
+        height: auto;        /* Annule les 100vh du mobile */
+        background: none;    /* Supprime le fond de la sidebar mobile */
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links a:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+
+    /* 4. On cache la croix (X) de fermeture qui ne sert que sur mobile */
+    .sidebar-close {
+        display: none;
+    }
 }

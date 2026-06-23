@@ -10,20 +10,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <script src="/src/main.js" type="module"></script>
+    <script src="/src/animation.js" type="module"></script>
   </head>
   <body>
-    <header>
+    <header class="reveal-1">
       <nav class="container">
         <div class="nav-elements">
           <img src="src/assets/Ep.svg" alt="Logo" width="75" height="75">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar-open lucide lucide-menu-icon lucide-menu burger"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
         </div>
-        <ul class="nav-links">
-          <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar-close lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></li>
-          <li><a href="../index.html">Accueil</a></li>
-          <li><a href="../experiences.html">Expériences</a></li>
-          <li><a href="../about.html">à Propos</a></li>
-        </ul>
+        <div class="nav-links">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar-close lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          <div class="links">
+          <a href="../index.html">Accueil</a>
+          <a href="../experiences.html">Expériences</a>
+          <a href="../about.html">à Propos</a>
+          </div>
+        </div>
       </nav>
     </header>
   </body>
