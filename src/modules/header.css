@@ -1,0 +1,39 @@
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    background: var(--secondary);
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+.sidebar-close {
+    cursor: pointer;
+    color: var(--accent);
+}
+
+header.active .nav-links {
+    left : 0
+}
+
+.nav-links li svg {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.nav-links li a {
+    color: var(--accent);
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    display: block;
+    margin: 2rem;
+    width: max-content;
+}

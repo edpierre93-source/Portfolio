@@ -1,0 +1,4 @@
+.burger {
+    color: var(--accent);
+    cursor: pointer;
+}
