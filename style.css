@@ -6,10 +6,12 @@
 @import "./src/components/burger.css" layer(components);
 
 :root {
-    --accent : rgba(200, 184, 120, 1);
-    --primary : #101d42;
-    --secondary : #1e377a;
-    --font-main : 'Nunito', sans-serif;
+    --accent : rgb(51, 51, 51);
+    --hover : rgba(200, 184, 120, 0.575);
+    --primary : #47598a;
+    --secondary : #e6e6e6;
+    --font-link : 'Exo', sans-serif;
+    --font-logo : 'Julius Sans One', sans-serif;
 }
 
 body {
