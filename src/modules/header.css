@@ -51,7 +51,7 @@ header.active .nav-links {
     font-size: 1rem;
     display: block;
     width: max-content;
-    padding-inline: 1rem;
+    padding: 1rem;
 }
 
 @media (min-width : 600px) {
