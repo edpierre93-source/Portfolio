@@ -10,7 +10,7 @@
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     font-style: italic;
     letter-spacing: 1px;
@@ -28,7 +28,7 @@
 
 @media (min-width : 700px) {
     .hero-title {
-        font-size: 8rem;
+        font-size: 6.8rem;
     }
 
     .hero-description {
