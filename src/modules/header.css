@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 1rem;
     margin: 0 1rem;
-    background: var(--secondary);
+    background: var(--background-light);
     border-radius: 5px;
     z-index: 10;
 }
@@ -11,7 +11,6 @@ header {
     font-family: var(--font-logo);
     font-size: 2rem;
     color: var(--accent);
-    z-index: 10;
     cursor: pointer;
 }
 
@@ -32,6 +31,8 @@ header {
     top: 4rem;
     transition: all 0.3s ease;
     border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
 }
 
 .sidebar-close {
@@ -52,7 +53,6 @@ header.active .nav-links {
 .nav-links a {
     color: var(--accent);
     font-family: var(--font-link);
-    font-size: 1rem;
     display: flex;
     margin-top: 2rem;
     padding: 0.5rem;
@@ -73,7 +73,6 @@ header.active .nav-links {
     .nav-links a {
     color: var(--accent);
     font-family: var(--font-link);
-    font-size: 1rem;
     display: flex;
     width: max-content;
     margin: 0 0.5rem;
