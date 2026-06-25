@@ -7,6 +7,15 @@ header {
     z-index: 10;
 }
 
+header nav {
+    box-shadow: 0px 2px 7px 0px;
+    border-radius: 5px;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%); /* Cache la navbar juste au-dessus de l'écran */
+}
+
 .logo {
     font-family: var(--font-logo);
     font-size: 2rem;
@@ -44,6 +53,10 @@ header.active .nav-links {
     left : 0
 }
 
+.nav-links {
+    box-shadow: 0px 2px 7px 0px
+}
+
 .nav-links svg {
     position: absolute;
     right: 5px;
@@ -70,6 +83,15 @@ header.active .nav-links {
     }
 
 @media (min-width : 550px) {
+    nav .container {
+        justify-items: center;
+        max-width: 1000px;
+    }
+
+    .nav-links {
+        box-shadow: none;
+    }
+
     .nav-links a {
     color: var(--accent);
     font-family: var(--font-link);
