@@ -2,8 +2,10 @@
 
 @import "./reset.css" layer(reset);
 @import "./src/modules/header.css" layer(modules);
+@import "./src/modules/hero.css" layer(modules);
 @import "./src/base/utilities.css" layer(base);
 @import "./src/components/burger.css" layer(components);
+
 
 :root {
     --accent : rgb(51, 51, 51);

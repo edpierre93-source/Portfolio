@@ -4,6 +4,7 @@ header {
     margin: 0 1rem;
     background: var(--secondary);
     border-radius: 5px;
+    z-index: 10;
 }
 
 .logo {
@@ -26,7 +27,7 @@ header {
     background: var(--secondary);
     position: absolute;
     width: 250px;
-    height: 100vh;
+    height: 80vh;
     left: -100%;
     top: 4rem;
     transition: all 0.3s ease;
