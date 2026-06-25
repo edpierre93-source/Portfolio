@@ -4,13 +4,13 @@ header {
     margin: 0 1rem;
     background: var(--secondary);
     border-radius: 5px;
+    z-index: 10;
 }
 
 .logo {
     font-family: var(--font-logo);
     font-size: 2rem;
     color: var(--accent);
-    z-index: 10;
     cursor: pointer;
 }
 
@@ -26,11 +26,13 @@ header {
     background: var(--secondary);
     position: absolute;
     width: 250px;
-    height: 100vh;
+    height: 80vh;
     left: -100%;
     top: 4rem;
     transition: all 0.3s ease;
     border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
 }
 
 .sidebar-close {
@@ -51,7 +53,6 @@ header.active .nav-links {
 .nav-links a {
     color: var(--accent);
     font-family: var(--font-link);
-    font-size: 1rem;
     display: flex;
     margin-top: 2rem;
     padding: 0.5rem;
@@ -72,7 +73,6 @@ header.active .nav-links {
     .nav-links a {
     color: var(--accent);
     font-family: var(--font-link);
-    font-size: 1rem;
     display: flex;
     width: max-content;
     margin: 0 0.5rem;
