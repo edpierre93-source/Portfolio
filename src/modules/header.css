@@ -13,7 +13,7 @@ header nav {
 }
 
 .navbar.hidden {
-  transform: translateY(-100%); /* Cache la navbar juste au-dessus de l'écran */
+  transform: translateY(-150%); /* Cache la navbar juste au-dessus de l'écran */
 }
 
 .logo {
