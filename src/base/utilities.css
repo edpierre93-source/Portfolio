@@ -1,15 +1,9 @@
-.container {
-    padding: 1rem;
-}
-
 [class*="reveal-"] {
     opacity: 0;
-    transform: translateY(30px);
 }
 
 .reveal-visible {
     opacity: 1;
-    transform: translateY(0);
     transition-duration: 1s;
 }
 
@@ -34,4 +28,8 @@
     opacity: 0;
     transform: translateY(30px);
   }
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
