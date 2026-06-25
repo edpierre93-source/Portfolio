@@ -1,6 +1,8 @@
 .story {
     justify-items: center;
     margin: 3rem 1rem 0rem 1rem;
+    box-shadow: 0px 2px 7px 0px;
+    border-radius: 5px;
 }
 
 .story p {
