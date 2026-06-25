@@ -12,6 +12,20 @@
     font-family: var(--font-main);
     font-size: 0.8rem;
     padding: 1.5rem;
-    line-height: 1.75rem;
+    line-height: 1.5;
     box-shadow: 0px 2px 7px 0px;
+}
+
+@media (min-width : 800px) {
+    .story p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        line-height: 2;
+    }
+}
+
+@media (min-width : 1000px) {
+    .story p {
+        max-width: 900px;
+    }
 }
