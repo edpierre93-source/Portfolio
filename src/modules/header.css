@@ -3,7 +3,7 @@ header {
     top: 1rem;
     margin: 0 1rem;
     background: var(--secondary);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .logo {
@@ -11,6 +11,7 @@ header {
     font-size: 2rem;
     color: var(--accent);
     z-index: 10;
+    cursor: pointer;
 }
 
 
@@ -18,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 1rem;
 }
 
 .nav-links {
@@ -49,9 +51,10 @@ header.active .nav-links {
     color: var(--accent);
     font-family: var(--font-link);
     font-size: 1rem;
-    display: block;
+    display: flex;
     width: max-content;
-    padding: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
 }
 
 @media (min-width : 600px) {
