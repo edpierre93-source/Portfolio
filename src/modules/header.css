@@ -28,8 +28,9 @@ header {
     width: 250px;
     height: 100vh;
     left: -100%;
-    top: 0;
+    top: 4rem;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .sidebar-close {
@@ -52,12 +53,31 @@ header.active .nav-links {
     font-family: var(--font-link);
     font-size: 1rem;
     display: flex;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.links {
+    padding: 1rem;
+    justify-items: flex-start;
+}
+
+.links a:hover {
+        border-radius: 5px;
+        background-color: var(--hover);
+        transition: all 0.3s ease;
+    }
+
+@media (min-width : 550px) {
+    .nav-links a {
+    color: var(--accent);
+    font-family: var(--font-link);
+    font-size: 1rem;
+    display: flex;
     width: max-content;
     margin: 0 0.5rem;
     padding: 0.5rem;
 }
-
-@media (min-width : 600px) {
     /* 1. On cache le bouton burger */
     .burger {
         display: none;
@@ -83,12 +103,6 @@ header.active .nav-links {
     .links {
         display: flex;
         padding: 2px;
-    }
-
-    .links a:hover {
-        border-radius: 5px;
-        background-color: var(--hover);
-        transition: all 0.3s ease;
     }
 
     /* 4. On cache la croix (X) de fermeture qui ne sert que sur mobile */

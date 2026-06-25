@@ -7,7 +7,7 @@
 
 :root {
     --accent : rgb(51, 51, 51);
-    --hover : rgba(223, 210, 174, 0.438);
+    --hover : rgba(223, 210, 174, 0.26);
     --primary : #47598a;
     --secondary : #e6e6e6;
     --font-link : 'Exo', sans-serif;
