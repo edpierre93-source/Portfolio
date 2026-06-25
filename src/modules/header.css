@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 1rem;
     margin: 0 1rem;
-    background: var(--secondary);
+    background: var(--background-light);
     border-radius: 5px;
     z-index: 10;
 }
