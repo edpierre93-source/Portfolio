@@ -29,7 +29,14 @@ html, body {
 }
 
 .background {
-    background: var(--primary);
+    background: 
+          radial-gradient(ellipse 120% 80% at 70% 20%, rgba(255, 20, 145, 0.37), transparent 50%),
+          radial-gradient(ellipse 100% 60% at 30% 10%, rgba(0, 255, 255, 0.322), transparent 60%),
+          radial-gradient(ellipse 90% 70% at 50% 0%, rgba(137, 43, 226, 0.281), transparent 65%),
+          radial-gradient(ellipse 110% 50% at 80% 30%, rgba(255, 217, 0, 0.308), transparent 40%),
+          var(--primary);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
 }
 
 .accessibility-mode {
