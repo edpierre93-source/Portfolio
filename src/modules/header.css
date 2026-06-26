@@ -4,12 +4,16 @@ header {
     margin: 0 1rem;
     background: var(--background-light);
     border-radius: 5px;
-    z-index: 10;
+    z-index: 100;
 }
 
 header nav {
     box-shadow: 0px 2px 7px 0px;
     border-radius: 5px;
+}
+
+.navbar {
+    isolation: isolate;
 }
 
 .navbar.hidden {
