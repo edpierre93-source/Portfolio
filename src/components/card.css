@@ -3,10 +3,15 @@
     font-family: var(--font-main);
     border-radius: 5px;
     margin-bottom: 1rem;
+    box-shadow: 0px 1px 4px 0px;
 
     & img {
         border-radius: 5px 5px 0 0;
     }
+
+    animation: growCard linear both;
+    animation-timeline: view(); /* Déclenche l'animation selon la visibilité de la carte */
+    animation-range: entry 0% contain 50%;
 }
 
 .card p {
@@ -14,4 +19,15 @@
     text-wrap: balance;
     padding: 1rem;
     line-height: 1.5;
+}
+
+@keyframes growCard {
+    from {
+        width: 60%;
+        border-radius: 24px;
+    }
+    to {
+        width: 100%;
+        border-radius: 0px; /* Devient carré pour fusionner avec les bords de l'écran */
+    }
 }

@@ -44,6 +44,8 @@ html, body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     color: var(--accent);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @keyframes gradient {
