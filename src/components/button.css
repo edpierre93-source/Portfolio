@@ -17,8 +17,8 @@
 /* Le parent prend une taille fixe pour ne pas s'effondrer */
 .acces-contenair {
     position: relative;
-    width: 50px;  /* Ajuste la largeur selon tes besoins */
-    height: 24px; /* Ajuste la hauteur selon tes besoins */
+    width: 50px;
+    height: 24px;
 }
 
 /* Les deux boutons se superposent pile l'un sur l'autre */
