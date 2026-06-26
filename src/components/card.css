@@ -17,9 +17,9 @@
 }
 
 .card p {
-    text-align: justify;
     padding: 1rem;
     line-height: 1.5;
+    font-size: 0.8rem;
 }
 
 @media (min-width : 650px) {
@@ -35,6 +35,7 @@
 
         & p {
             align-self: center;
+            padding: 2rem;
         }
     }
 
@@ -60,6 +61,10 @@
         max-width: 900px;
         & img {
             width: 600px;
+        }
+
+        & p {
+            font-size: 1rem;
         }
     }
 }
