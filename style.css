@@ -8,6 +8,7 @@
 @import "./src/components/card.css" layer(components);
 @import "./src/components/burger.css" layer(components);
 @import "./src/components/button.css" layer(components);
+@import "./src/components/border.css" layer(components);
 
 
 :root {

@@ -5,11 +5,9 @@
     gap: 3rem;
     font-size: 0.88rem;
     color: var(--secondary);
-    margin-top: 5rem;
 }
 
 .footer-logo {
-    border-top: solid 1px #00000027;
     padding-top: 2rem;
     font-size: 3rem;
     font-family: var(--font-logo);
@@ -97,6 +95,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .footer-logo {
+        border: none;
+    }
+
+    
 
     .footer-social {
         justify-content: flex-start;
