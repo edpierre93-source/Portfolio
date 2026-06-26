@@ -11,6 +11,8 @@
 
     & img {
         border-radius: 5px 5px 0 0;
+        height: auto;
+        width: auto;
     }
 }
 
@@ -20,7 +22,7 @@
     line-height: 1.5;
 }
 
-@media (min-width : 700px) {
+@media (min-width : 650px) {
     .card {
         display: flex;
         margin: 0 1rem 5rem 1rem;
