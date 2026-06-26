@@ -1,5 +1,7 @@
 .navbar {
-    position: sticky;
+    position: fixed;
+    width: calc(100% - 10%);
+    justify-self: center;
     top: 1rem;
     margin: 0 1rem;
     background: var(--background-light);
@@ -11,7 +13,7 @@
 }
 
 .navbar.hidden {
-  transform: translateY(-150%); /* Cache la navbar juste au-dessus de l'écran */
+  transform: translateY(-150%);
 }
 
 .logo {
@@ -34,9 +36,9 @@
     position: absolute;
     width: 250px;
     height: 80vh;
-    left: -100%;
+    left: -300%;
     top: 4rem;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-radius: 5px;
     letter-spacing: 1px;
     font-size: 0.8rem;
