@@ -36,7 +36,7 @@
     position: absolute;
     width: 250px;
     height: 80vh;
-    left: -300%;
+    left: -100%;
     top: 4rem;
     transition: all 0.5s ease;
     border-radius: 5px;
