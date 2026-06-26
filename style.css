@@ -1,11 +1,12 @@
 @layer reset, base, modules, component;
 
 @import "./reset.css" layer(reset);
+@import "./src/base/utilities.css" layer(base);
 @import "./src/modules/header.css" layer(modules);
 @import "./src/modules/hero.css" layer(modules);
 @import "./src/modules/story.css" layer(modules);
 @import "./src/modules/footer.css" layer(modules);
-@import "./src/base/utilities.css" layer(base);
+@import "./src/components/card.css" layer(components);
 @import "./src/components/burger.css" layer(components);
 @import "./src/components/button.css" layer(components);
 
