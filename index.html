@@ -12,8 +12,9 @@
     <script src="/src/main.js" type="module"></script>
     <script src="/src/animation.js" type="module"></script>
     <script src="/src/navbar.js" type="module"></script>
+    <script src="/src/accessibility.js" type="module"></script>
   </head>
-  <body class="background">
+  <body class="accessibility-mode">
     <header class="reveal-1 navbar">
       <nav class="container">
         <div class="nav-elements">
@@ -31,6 +32,20 @@
         </div>
       </nav>
     </header>
+
+    <div class="acces">
+      <div class="acces-contenair">
+      <button class="button on" id="acces-mode" aria-pressed="false">
+        On
+      </button>
+      <button class="button off">
+        Off
+      </button>
+      </div>
+      <span>
+        Accessibility Mode
+      </span>
+    </div>
 
     <section class="hero">
       <div class="hero-title">
