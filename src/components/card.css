@@ -1,10 +1,13 @@
+.cards-container {
+    justify-items: center;
+}
+
 .card {
     background: var(--secondary);
     font-family: var(--font-main);
     border-radius: 5px;
     margin-bottom: 3rem;
     box-shadow: 0px 1px 4px 0px;
-    justify-content: center;
 
     & img {
         border-radius: 5px 5px 0 0;
@@ -13,8 +16,28 @@
 
 .card p {
     text-align: justify;
-    text-wrap: balance;
     padding: 1rem;
     line-height: 1.5;
 }
 
+@media (min-width : 700px) {
+    .card {
+        display: flex;
+        margin: 0 1rem 3rem 1rem;
+        max-width: 800px;
+
+        & img {
+            border-radius: 5px 0 0 5px;
+            width: 500px;
+        }
+    }
+}
+
+@media (min-width : 1000px) {
+    .card {
+        max-width: 900px;
+        & img {
+            width: 600px;
+        }
+    }
+}
