@@ -1,0 +1,17 @@
+.card {
+    background: var(--secondary);
+    font-family: var(--font-main);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    & img {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+.card p {
+    text-align: justify;
+    text-wrap: balance;
+    padding: 1rem;
+    line-height: 1.5;
+}
