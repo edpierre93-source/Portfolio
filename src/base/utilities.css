@@ -37,3 +37,7 @@
 .pointer {
     cursor: pointer;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
