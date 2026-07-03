@@ -41,3 +41,9 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}

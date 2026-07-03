@@ -47,6 +47,28 @@
     margin-left: 1rem;
 }
 
+.card-comp {
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px;
+    padding: 1rem;
+    line-height: 2;
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.card-comp h3{
+    font-family: var(--font-logo);
+    font-weight: 700;
+}
+
+.card-comp p {
+    font-family: var(--font-main);
+    color: var(--primary)
+}
+
 @media (min-width : 650px) {
     .card {
         display: flex;
