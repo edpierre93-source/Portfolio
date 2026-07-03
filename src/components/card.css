@@ -23,25 +23,25 @@
     font-size: 0.8rem;
 }
 
-.exp-card {
+.card-text {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     padding: 1rem;
 }
 
-.exp-card h3 {
+.card-text h3 {
     font-family: var(--font-logo);
     font-weight: 700;
     color: var(--accent);
     letter-spacing: 1px;
 }
 
-.exp-card p {
+.card-text p {
     color: var(--primary);
 }
 
-.exp-card li {
+.card-text li {
     list-style-type: disc;
     line-height: 2;
     margin-left: 1rem;
@@ -80,7 +80,7 @@
         }
     }
 
-    .exp-card:last-child {
+    .card-text:last-child {
         flex-direction: column;
     }
 }
