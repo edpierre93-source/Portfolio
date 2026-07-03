@@ -79,6 +79,10 @@
             border-radius: 0 5px 5px 0;
         }
     }
+
+    .exp-card:last-child {
+        flex-direction: column;
+    }
 }
 
 @media (min-width : 1000px) {
