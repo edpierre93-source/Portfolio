@@ -23,6 +23,30 @@
     font-size: 0.8rem;
 }
 
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.card-text h3 {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.card-text p {
+    color: var(--primary);
+}
+
+.card-text li {
+    list-style-type: disc;
+    line-height: 2;
+    margin-left: 1rem;
+}
+
 @media (min-width : 650px) {
     .card {
         display: flex;
@@ -54,6 +78,10 @@
         & img {
             border-radius: 0 5px 5px 0;
         }
+    }
+
+    .card-text:last-child {
+        flex-direction: column;
     }
 }
 

@@ -26,6 +26,12 @@
     letter-spacing: 1px;
 }
 
+.exp-description {
+    padding: 1rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
 @media (min-width : 700px) {
     .hero {
         margin-bottom: 25rem;
@@ -37,5 +43,9 @@
 
     .hero-description {
     font-size: 3rem;
+    }
+
+    .exp-description {
+        max-width: 700px;
     }
 }

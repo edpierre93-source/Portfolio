@@ -3,6 +3,7 @@
     text-align: center;
     display: grid;
     gap: 3rem;
+    margin-bottom: 2rem;
     font-size: 0.88rem;
     color: var(--secondary);
 }
@@ -79,9 +80,9 @@
     margin-bottom: 0.5rem;
 }
 
-.footer-address {
+.footer-address p {
     font-family: var(--font-hero);
-    line-height: 1.8;
+    line-height: 2;
     margin-bottom: 2rem;
 }
 

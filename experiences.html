@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="src/assets/Ep.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="CV en ligne de Edouard Pierre">
     <title>Edouard Pierre</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +13,7 @@
     <script src="/src/main.js" type="module"></script>
     <script src="/src/animation.js" type="module"></script>
     <script src="/src/navbar.js" type="module"></script>
+    <script src="/src/accessibility.js" type="module"></script>
   </head>
   <body class="background">
     <header class="reveal-1 navbar">
@@ -32,6 +34,72 @@
       </nav>
     </header>
 
+    <div class="acces">
+      <div class="acces-contenair">
+      <button class="button on pointer" id="acces-mode" aria-pressed="false">
+        On
+      </button>
+      <button class="button off pointer">
+        Off
+      </button>
+      </div>
+      <span>
+        Accessibility Mode
+      </span>
+    </div>
+
+      <section class="hero">
+          <h2 class="hero-title reveal-2">Expériences</h2>
+          <p class="exp-description">Fort d'un parcours diversifié, j'ai su transformer la variété de mes expériences en une véritable force. J'en ai retiré une grande rigueur opérationnelle, un souci du détail affûté et une aisance pour la communication. Autant de compétences transversales que je souhaite aujourd'hui mettre au service de mon futur métier de <strong>Développeur</strong>.</p>
+      </section>
+
+      <section class="cards-container">
+      <div class="card card-text reveal-1">
+        <h3>Speed Peinture, peintre préparateur jante</h3>
+        <p>09/2024 - 05/2026</p>
+        <ul>
+          <li>Gestion de la procédure de rénovation</li>
+          <li>remise du véhicule au client</li>
+          <li>Gestion des dossiers et de l'historique</li>
+        </ul>
+      </div>
+
+      <div class="card card-text reveal-1">
+        <h3>Veuve Ambal, conseiller en vin de Bourgogne</h3>
+        <p>08/2023 - 08/2024</p>
+        <ul>
+          <li>Dégustation (français, anglais)</li>
+          <li>Oeno tourisme</li>
+          <li>Gestion des stocks informatiques</li>
+          <li>Gestion des commandes clients</li>
+        </ul>
+      </div>
+
+      <div class="card card-text reveal-1">
+        <h3>Domaine de La Cras, apprentissage viticole</h3>
+        <p>08/2022 - 07/2023</p>
+        <ul>
+          <li>Travaux de la vigne</li>
+          <li>Travaux de la cave</li>
+          <li>Vinification</li>
+          <li>Contrôle de fermentation</li>
+        </ul>
+      </div>
+
+      <div class="card card-text reveal-1">
+        <h3>Cogitech, Responsable finition</h3>
+        <p>06/2018 - 07/2022</p>
+        <ul>
+          <li>Peinture en cabine</li>
+          <li>Contrôle et finition de panneaux décoratifs pour les boutiques Rolex</li>
+          <li>Expédition / conditionnement</li>
+          <li>Chargement des camions de transport (CACES)</li>
+          <li>Gestion des dossiers</li>
+        </ul>
+      </div>
+      
+    </section>
+
     <div class="border"></div>
     
     <footer class="footer">
@@ -46,11 +114,13 @@
             </div>
         </div>
         <div>
-        <div class="footer-adress reveal-3">
-            <span>Edouard Pierre</span>
+        <div class="footer-address reveal-3">
+          <p>
+            <span>Edouard Pierre</span> <br>
             21000 Dijon <br>
             06 89 01 20 06 <br>
             edpierre93@gmail.com
+            </p>
         </div>
         </div>
      </footer>
