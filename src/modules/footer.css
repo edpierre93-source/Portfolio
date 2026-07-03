@@ -80,9 +80,9 @@
     margin-bottom: 0.5rem;
 }
 
-.footer-address {
+.footer-address p {
     font-family: var(--font-hero);
-    line-height: 1.8;
+    line-height: 2;
     margin-bottom: 2rem;
 }
 
