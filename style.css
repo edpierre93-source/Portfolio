@@ -1,5 +1,3 @@
-@layer reset, base, modules, component;
-
 @import "./reset.css" layer(reset);
 @import "./src/base/utilities.css" layer(base);
 @import "./src/modules/header.css" layer(modules);
@@ -10,6 +8,7 @@
 @import "./src/components/button.css" layer(components);
 @import "./src/components/border.css" layer(components);
 
+@layer reset, base, modules, component;
 
 :root {
     --accent : rgb(51, 51, 51);
