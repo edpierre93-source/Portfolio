@@ -28,6 +28,59 @@ body {
     color: var(--accent);
 }
 
+.app-wrapper {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.app-wrapper.is-ready {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.loader {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.loader.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader__ring {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 3px solid rgba(155, 111, 117, 0.2);
+    border-top-color: var(--primary);
+    animation: spin 0.9s linear infinite;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 18px rgba(155, 111, 117, 0.16);
+}
+
+.loader__text {
+    font-family: var(--font-link);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--accent);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .background {
     background: 
           radial-gradient(ellipse 120% 80% at 70% 20%, rgba(255, 20, 145, 0.37), transparent 50%),
