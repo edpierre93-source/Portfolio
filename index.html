@@ -15,7 +15,10 @@
     <script src="/src/accessibility.js" type="module"></script>
   </head>
   <body class="accessibility-mode">
-    <div id="app-wrapper">
+    <div id="loader" class="loader" aria-live="polite" aria-label="Chargement du portfolio">
+      <div class="loader__ring"></div>
+      <p class="loader__text">Chargement...</p>
+    </div>
     <header class="navbar reveal-1">
       <nav class="container">
         <div class="nav-elements">
@@ -111,6 +114,5 @@
         </div>
         </div>
      </footer>
-    </div>
   </body>
 </html>

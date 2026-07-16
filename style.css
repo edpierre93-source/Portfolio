@@ -1,5 +1,6 @@
 @import "./reset.css" layer(reset);
 @import "./src/base/utilities.css" layer(base);
+@import "./src/modules/wrapper.css" layer(modules);
 @import "./src/modules/header.css" layer(modules);
 @import "./src/modules/hero.css" layer(modules);
 @import "./src/modules/footer.css" layer(modules);
