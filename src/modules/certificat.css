@@ -1,0 +1,37 @@
+.certificat {
+    font-family: var(--font-logo);
+    color: var(--secondary);
+    margin-top: 3rem;
+}
+
+.certif-card {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    margin: auto;
+}
+
+.certificat h2 {
+    font-size: 1.5rem;
+    text-align:  center;
+    margin-bottom: 3rem;
+}
+
+.certificat img {
+    margin: 0.5rem auto 2rem auto;
+    justify-self: center;
+}
+
+@media (min-width : 700px) {
+    .certificat h2 {
+        font-size: 2rem;
+    }
+
+    .certif-container {
+        margin: 0 1rem 0 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        justify-content: start;
+    }
+}
