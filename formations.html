@@ -14,6 +14,7 @@
     <script src="/src/animation.js" type="module"></script>
     <script src="/src/navbar.js" type="module"></script>
     <script src="/src/accessibility.js" type="module"></script>
+    <script src="/src/contact.js" type="module"></script>
   </head>
   <body>
     <header class="reveal-1 navbar">
@@ -65,7 +66,31 @@
       </div>
     </section>
 
-    <div class="border"></div>
+    <section class="contact">
+      <h2 class="contact-title">Me contacter</h2>
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/mqpkplpk" method="POST">
+        <div class="form-group">
+          <label for="nom">Nom et prénom</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="objet">Objet</label>
+          <input type="text" id="objet" name="_subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <!-- Piège anti-spam invisible -->
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="contact-submit pointer">Envoyer</button>
+        <p class="contact-feedback" id="contact-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
 
     <footer class="footer codioful-footer">
         <div>
@@ -74,16 +99,18 @@
             </div>
             <div class="footer-social">
             <a href="https://github.com/edpierre93-source/Portfolio" class="icon reveal-2">
-              <img src="/src/assets/github-svgrepo-com.svg" alt="icon github | lien vers la page github de Edoaurd Pierre" width="50" height="50">
+              <img src="/src/assets/github-svgrepo-com.svg" alt="icon github | lien vers la page github de Edouard Pierre" width="50" height="50">
+            </a>
+            <a href="https://linkedin.com/in/edouard-pierre-a1349041a" class="icon reveal-2">
+              <img src="/src/assets/linkedin-svgrepo-com.svg" alt="icon Linkedin | lien vers la page Linkedin de Edouard Pierre" width="50" height="50">
             </a>
             </div>
         </div>
         <div>
         <div class="footer-address reveal-3">
-            <span>Edouard Pierre</span> <br>
-            21000 Dijon <br>
-            06 89 01 20 06 <br>
-            edpierre93@gmail.com
+            <p>
+              Design, conception, développement | Edouard Pierre
+            </p>
         </div>
         </div>
      </footer>
