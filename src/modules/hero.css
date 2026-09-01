@@ -1,16 +1,13 @@
 .hero {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    gap: 1rem;
     align-items: center;
-    margin-top: 10rem;
-    margin-bottom: 30rem;
     color: var(--secondary);
     font-family: var(--font-hero);
-    gap: 1rem;
-}
-
-section .hero {
-    background: white;
+    padding: 6rem 1.5rem 3rem;
+    background: linear-gradient(180deg, rgba(155, 111, 117, 0.15), transparent);
 }
 
 .hero-title {
@@ -37,9 +34,6 @@ section .hero {
 }
 
 @media (min-width : 700px) {
-    .hero {
-        margin-bottom: 25rem;
-    }
 
     .hero-title {
         font-size: 6.8rem;
