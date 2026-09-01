@@ -47,3 +47,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
+.codioful {
+background: linear-gradient(300.96deg, #005275 0.36%, #F0FFB3 100%), linear-gradient(360deg, #4D0059 0%, #C0FFAA 100%), radial-gradient(100% 138.56% at 100% 0%, #D50D00 0%, #006B5E 100%), radial-gradient(100% 148.07% at 0% 0%, #D50000 0%, #00FFFF 100%);
+background-blend-mode: soft-light, overlay, difference, normal;
+}
