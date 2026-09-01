@@ -9,6 +9,10 @@
     gap: 1rem;
 }
 
+section .hero {
+    background: white;
+}
+
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
