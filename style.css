@@ -14,7 +14,7 @@
 :root {
     --accent : rgb(51, 51, 51);
     --hover : rgba(223, 210, 174, 0.26);
-    --primary : #9b6f75;
+    --primary : #1b365a;
     --primary-light : #c79f8f;
     --secondary : #e6e6e6;
     --background-light : #e6e6e6;
@@ -27,37 +27,5 @@
 
 body {
     color: var(--accent);
+    background: var(--primary);
 }
-
-.background {
-    background: 
-          radial-gradient(ellipse 120% 80% at 70% 20%, rgba(255, 20, 145, 0.37), transparent 50%),
-          radial-gradient(ellipse 100% 60% at 30% 10%, rgba(0, 255, 255, 0.322), transparent 60%),
-          radial-gradient(ellipse 90% 70% at 50% 0%, rgba(137, 43, 226, 0.281), transparent 65%),
-          radial-gradient(ellipse 110% 50% at 80% 30%, rgba(255, 217, 0, 0.308), transparent 40%),
-          var(--primary);
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-}
-
-.accessibility-mode {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    color: var(--accent);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-

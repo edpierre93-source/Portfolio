@@ -1,12 +1,14 @@
 .hero {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    gap: 1rem;
     align-items: center;
-    margin-top: 10rem;
-    margin-bottom: 30rem;
+    justify-content: center;
     color: var(--secondary);
     font-family: var(--font-hero);
-    gap: 1rem;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1rem;
 }
 
 .hero-title {
@@ -33,9 +35,6 @@
 }
 
 @media (min-width : 700px) {
-    .hero {
-        margin-bottom: 25rem;
-    }
 
     .hero-title {
         font-size: 6.8rem;
