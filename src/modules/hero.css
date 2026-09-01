@@ -4,10 +4,14 @@
     min-height: 100vh;
     gap: 1rem;
     align-items: center;
+    justify-content: center;
     color: var(--secondary);
     font-family: var(--font-hero);
-    padding: 6rem 1.5rem 3rem;
-    background: linear-gradient(180deg, rgba(155, 111, 117, 0.15), transparent);
+    padding: 1.5rem 3rem;
+    background-color: #E5E5F7;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #444CF7, #E5E5F7), repeating-radial-gradient(circle at center center, #444CF7, #444CF7, 10px, transparent 20px, transparent 10px) ;
+    background-blend-mode: multiply;
 }
 
 .hero-title {
