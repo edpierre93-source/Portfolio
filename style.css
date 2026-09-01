@@ -5,6 +5,7 @@
 @import "./src/modules/hero.css" layer(modules);
 @import "./src/modules/contact.css" layer(modules);
 @import "./src/modules/footer.css" layer(modules);
+@import "./src/modules/certificat.css" layer(modules);
 @import "./src/components/card.css" layer(components);
 @import "./src/components/burger.css" layer(components);
 @import "./src/components/button.css" layer(components);
