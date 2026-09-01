@@ -1,4 +1,3 @@
-@layer base, components, modules;
 @import "./reset.css" layer(reset);
 @import "./src/base/utilities.css" layer(base);
 @import "./src/modules/wrapper.css" layer(modules);
