@@ -7,7 +7,6 @@
 @import "./src/modules/certificat.css" layer(modules);
 @import "./src/components/card.css" layer(components);
 @import "./src/components/burger.css" layer(components);
-@import "./src/components/button.css" layer(components);
 
 @layer reset, base, modules, component;
 
