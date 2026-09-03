@@ -54,14 +54,3 @@
     pointer-events: none; /* Empêche de cliquer à travers tant qu'il est masqué */
     z-index: 1;
 }
-
-/* Quand le mode accessibilité est actif (sur le body) : on inverse ! */
-body.accessibility-mode .button.on {
-    opacity: 0;
-    pointer-events: none;
-}
-
-body.accessibility-mode .button.off {
-    opacity: 1;
-    pointer-events: auto;
-}
