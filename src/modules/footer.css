@@ -87,11 +87,6 @@
 
 
 @media (min-width: 700px) {
-    .footer-left {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
     .footer {
         text-align: left;
