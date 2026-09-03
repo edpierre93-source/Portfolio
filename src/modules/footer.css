@@ -20,12 +20,6 @@
     height: auto;
 }
 
-.footer-description {
-    line-height: 1.63;
-    text-wrap: balance;
-    margin-bottom: 1.5rem;
-}
-
 .footer-social {
     display: flex;
     justify-content: center;
@@ -37,39 +31,6 @@
     width: 24px;
     height: 24px;
     display: block;
-}
-
-.footer-links {
-    display: grid;
-    width: max-content;
-    max-width: 400px;
-    gap: 5rem;
-    grid-template-columns: 1fr 1fr;
-    justify-self: center;
-}
-
-.footer-links-title {
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
-
-.footer-navigation a {
-    display: block;
-    padding-block: 0.25rem;
-    line-height: 1.43;
-}
-
-.footer-navigation a:first-child {
-    padding-top: 0;
-}
-
-.footer-navigation {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.43;
-    color: var(--text-info);
-    gap: 4px;
 }
 
 .footer-address span {
