@@ -83,11 +83,6 @@ header.active .nav-links {
     }
 
 @media (min-width : 550px) {
-    nav .container {
-        justify-items: center;
-        max-width: 1000px;
-    }
-
     .nav-links {
         box-shadow: none;
     }

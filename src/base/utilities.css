@@ -30,16 +30,8 @@
   }
 }
 
-.capitalize {
-    text-transform: capitalize;
-}
-
 .pointer {
     cursor: pointer;
-}
-
-.uppercase {
-    text-transform: uppercase;
 }
 
 .grid {
