@@ -1,6 +1,6 @@
 .cards-container {
     justify-items: center;
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0.5rem 0.5rem;
 }
 
 .card {
@@ -70,9 +70,16 @@
 }
 
 @media (min-width : 650px) {
+    .card-left {
+        margin-left: -20%;
+    }
+
+    .card-right {
+        margin-right: -20%;
+    }
+    
     .card {
         display: flex;
-        margin: 0 0 5rem 0;
         max-width: 800px;
 
         & img {
