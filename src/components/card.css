@@ -3,6 +3,37 @@
     margin: 0.5rem 0.5rem;
 }
 
+.experiences-cards,
+.formations-cards,
+.competences-cards {
+    display: grid;
+    grid-template-columns: minmax(0, 900px);
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.experiences-cards .card,
+.formations-cards .card,
+.competences-cards .card-comp {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.formations-cards .card-text,
+.competences-cards .card-comp {
+    text-align: center;
+}
+
+@media (max-width: 649px) {
+    .experiences-cards,
+    .formations-cards,
+    .competences-cards {
+        margin-inline: 2rem;
+    }
+}
+
 .card {
     background: var(--secondary);
     font-family: var(--font-main);
