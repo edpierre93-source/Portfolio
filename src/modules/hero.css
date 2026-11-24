@@ -8,7 +8,7 @@
     color: var(--secondary);
     font-family: var(--font-hero);
     padding: 1.5rem 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .hero-title {
@@ -34,6 +34,57 @@
     padding: 1rem;
     line-height: 1.5;
     margin-top: 2rem;
+}
+
+.contact-marquee {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    padding-block: 1rem;
+    background: var(--secondary);
+    color: var(--primary);
+    font-family: var(--font-link);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.contact-marquee:focus-visible {
+    outline: 3px solid var(--primary-light);
+    outline-offset: -3px;
+}
+
+.contact-marquee-track {
+    display: flex;
+    flex: none;
+    width: max-content;
+    animation: contact-marquee-scroll 30s linear infinite;
+}
+
+.contact-marquee-group {
+    display: flex;
+    flex: none;
+    gap: 3rem;
+    min-width: 100vw;
+    padding-inline-end: 3rem;
+    justify-content: space-around;
+}
+
+.contact-marquee-item {
+    flex: none;
+    white-space: nowrap;
+}
+
+.contact-marquee:hover .contact-marquee-track,
+.contact-marquee:focus-visible .contact-marquee-track {
+    animation-play-state: running;
+}
+
+@keyframes contact-marquee-scroll {
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 @media (min-width : 700px) {
